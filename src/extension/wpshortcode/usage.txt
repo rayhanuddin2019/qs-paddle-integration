@@ -1,0 +1,55 @@
+/*
+* Usage 
+* First Configure settings in config -> settings
+* 
+return [
+
+    //  Extension Config
+    'meta' => [
+      'name' => esc_html__('Wp Shortcode','qs-paddle-integration'),
+      'description' => esc_html__('Wp Shortcode use for base widget setting that can run any editor','qs-paddle-integration'),
+      'author' => 'quomodosoft'
+    ],
+
+    'widgets' => [
+        
+        'shop_ready_wc_order' => [
+            'name' => esc_html__('WooCommerce Order','qs-paddle-integration'),
+            'category'      => ['Account','Checkout'],
+            // configure defaults settings otherwise will not works
+            'defaults'      => [
+                'foo' => 'helo',
+                 'bar' => 'bar'
+            ],
+        ],
+  
+    ],
+    
+*/
+
+/* 2nd
+* Create widget class
+* must implement view metthod with 2 args
+* must create view folder 
+*/
+
+<?php 
+namespace QS_Paddle_Integration\extension\wpshortcode\order;
+use QS_Paddle_Integration\extension\wpshortcode\ShortCode_Base;
+
+Class Order extends ShortCode_Base {
+   
+    // [shop_ready_wc_order foo='foo']
+    public $slug = 'shop_ready_wc_order';
+
+    public function view( $atts , $content='' ){
+
+        $settings =  $this->settings;
+        include( plugin_dir_path( __FILE__ ) . 'view/order.php');
+        unset($settings);
+    }
+
+    
+ 
+}
+

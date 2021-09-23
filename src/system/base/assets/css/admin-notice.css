@@ -1,0 +1,37 @@
+/*================ ==================
+* Admin Notice 
+* since 1.0
+*====================== ==============/
+
+/* ******************
+* Table of content
+*
+* 1. Admin Basic Notice  
+* ***********************/
+
+.notice.qs-paddle-intregration-notice {
+   
+  background: rebeccapurple;
+  color:aliceblue;
+  padding: 20px 15;   
+   
+} 
+
+.notice.qs-paddle-intregration-notice .notice-dismiss:before {
+
+  color : #fff; 
+
+}
+
+.notice.qs-paddle-intregration-notice strong a {
+
+    color : #fff; 
+    font-size: 14px;
+    background: rgb(7, 7, 0);
+    padding: 10px;
+    border-left: 3px solid #f6ebeb;
+    border-radius: 3px;
+
+}
+
+
