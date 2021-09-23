@@ -22,7 +22,7 @@ Abstract Class ShortCode_Base extends ShortCode_Settings {
 
     public function set_configs(){
        
-        $this->configs = shop_ready_wpshortcode_config()->all()['widgets'][$this->slug];
+        $this->configs = qs_paddle_integration_wpshortcode_config()->all()['widgets'][$this->slug];
         $this->defaults = isset($this->configs['defaults']) && is_array($this->configs['defaults']) ? $this->configs['defaults'] : [];
        
     }
@@ -40,7 +40,7 @@ Abstract Class ShortCode_Base extends ShortCode_Settings {
     public function render($atts , $content=''){
 
         $this->settings = shortcode_atts( $this->defaults, $atts );
-        $wrapper_cls = apply_filters( 'shop_ready_wp_shortcode_wrapper_cls', 'shop_ready_wpsc_wrapper_cls' );
+        $wrapper_cls = apply_filters( 'qs_paddle_wp_shortcode_wrapper_cls', 'qs_paddle_wpsc_wrapper_cls' );
         
         ob_start();
 

@@ -5,9 +5,9 @@ use Illuminate\Config\Repository as QS_Paddle_Intregration;
 ** Use this function only wpshortcode extension
 */
 
-if(!function_exists('shop_ready_wpshortcode_config')){
+if(!function_exists('qs_paddle_integration_wpshortcode_config')){
 
-	function shop_ready_wpshortcode_config(){
+	function qs_paddle_integration_wpshortcode_config(){
 		// memoization cache
 		static $mangocube_shortcode_config = null;
 		if(is_null($mangocube_shortcode_config)) {

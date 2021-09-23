@@ -1,7 +1,7 @@
 <?php 
 
 namespace QS_Paddle_Integration\base\assets;
-use QS_Paddle_Integration\system\base\assets\Assets as Shop_Ready_Resource;
+use QS_Paddle_Integration\system\base\assets\Assets as QS_Resource;
 
 /*
 * Register all widgets related js and css
@@ -13,7 +13,7 @@ use QS_Paddle_Integration\system\base\assets\Assets as Shop_Ready_Resource;
 * $menu (array)
 */
 
-Class Assets extends Shop_Ready_Resource{
+Class Assets extends QS_Resource{
    
    public function register(){
 

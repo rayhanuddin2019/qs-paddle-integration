@@ -18,7 +18,7 @@ function qs_paddle_intregration_app_config(){
 
 
 /**
-** shop_ready_sysytem_module_options
+** qs_paddle_integration_sysytem_module_options
 ** Use this file anywhere of this plugin
 *  @version 1.0
 */

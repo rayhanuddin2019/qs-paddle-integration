@@ -4,7 +4,7 @@
 
     'price_table_qs_paddle_widget' => [
 
-      'title'         => esc_html__('Price Table','qs-paddle-integration'),
+      'title'         => esc_html__('Paddle Price Table','qs-paddle-integration'),
       'icon'          => 'eicon-tabs',
       'show_in_panel' => false,
       'is_pro'        => false,

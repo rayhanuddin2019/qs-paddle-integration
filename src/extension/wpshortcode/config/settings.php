@@ -15,7 +15,7 @@ return [
     'widgets' => [
         
       
-        'shop_ready_notice' => [
+        'qs_paddle_notice' => [
             'name' => esc_html__('Notice','qs-paddle-integration'),
             'category'      => ['Account','Checkout'],
             // configure defaults settings otherwise will not works

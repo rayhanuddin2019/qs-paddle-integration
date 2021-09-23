@@ -35,9 +35,9 @@ if(!function_exists('qs_paddle_intregration_genwidget_config')){
 		static $woo_ready_ele_gen_widget = null;
 		if(is_null($woo_ready_ele_gen_widget)) {
 			
-			$shop_ready_ele = new QS_Paddle_Intregration(require QS_PADDLE_INTEGRATION_DIR_PATH . 'src/extension/generalwidgets/config/widgets.php');
+			$qs_ready_ele = new QS_Paddle_Intregration(require QS_PADDLE_INTEGRATION_DIR_PATH . 'src/extension/generalwidgets/config/widgets.php');
 			$db_opt 				= get_option('qs_paddle_intregration_components') ? get_option('qs_paddle_intregration_components') : [];
-			$shop_wd_old 			= $shop_ready_ele->all();
+			$shop_wd_old 			= $qs_ready_ele->all();
            
 			if( is_array( $db_opt ) ){
 

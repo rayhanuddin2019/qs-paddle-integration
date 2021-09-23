@@ -42,7 +42,7 @@ Class Page {
             QS_PADDLE_INTEGRATION_SETTING_PATH,
             [$this,'dashboard_content'],
             //QS_PADDLE_INTEGRATION_PUBLIC_ROOT_IMG . 'logo.jpg',
-            'dashicons-products',
+            'dashicons-cart',
             4
         ); 
 

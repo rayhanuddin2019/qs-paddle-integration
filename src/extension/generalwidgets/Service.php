@@ -83,7 +83,7 @@ final class Service extends Woo_Ready_Ext_Base {
 
 	public function init() {
 	
-		do_action('woo_ready/genwidgets/loaded/before'); 
+		do_action('qs_paddle_integration/genwidgets/loaded/before'); 
       
 		/*----------------------------------
 			ADD NEW ELEMENTOR CATEGORIES
@@ -99,7 +99,7 @@ final class Service extends Woo_Ready_Ext_Base {
 		-----------------------------------*/
 		
 	
-		do_action('woo_ready/genwidgets/loaded/after'); 
+		do_action('qs_paddle_integration/genwidgets/loaded/after'); 
 	}
 
 

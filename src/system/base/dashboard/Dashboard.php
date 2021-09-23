@@ -90,7 +90,7 @@ final class Dashboard {
                 var buttons = document.querySelectorAll('.qs-paddle-intregration-menu-tab .qs-paddle-intregration-dash-tab-links');
 
                     [].forEach.call(buttons, function(nav) {
-                        nav.addEventListener('click', shop_ready_open_nav, false);
+                        nav.addEventListener('click', qs_paddle_ready_open_nav, false);
                         nav.navigation = nav.dataset.navid;
                         nav.default = nav.dataset.default;
                        
@@ -105,21 +105,21 @@ final class Dashboard {
                 var offcanvas = document.querySelectorAll('.qs-paddle-intregration-offcanvas');
                 
                 [].forEach.call(offcanvas, function(woo_canvas) {
-                    woo_canvas.addEventListener('click', shop_ready_offcanvas_push, false);
+                    woo_canvas.addEventListener('click', qs_paddle_integration_offcanvas_push, false);
                 });
                 
                 // switch enable disable
                 var enable_all = document.querySelectorAll('.qs-paddle-intregration-enable-all-switch,.qs-paddle-intregration-disable-all-switch'); 
 
                 [].forEach.call(enable_all, function(canvas_swither) {
-                    canvas_swither.addEventListener('click', shop_ready_enable_all_switch, false);
+                    canvas_swither.addEventListener('click', qs_paddle_integration_enable_all_switch, false);
                 });
 
                 // search 
                 var search_all = document.querySelectorAll('input.qs-paddle-intregration-element-search'); 
                 
                 [].forEach.call(search_all, function(search_fld) {
-                    search_fld.addEventListener('input', shop_ready_element_search_action, false);
+                    search_fld.addEventListener('input', qs_paddle_integration_element_search_action, false);
                 });
 
                 
@@ -151,13 +151,13 @@ final class Dashboard {
                             targetee.style.display = 'none';
                         }
 
-                    _fld.addEventListener('click', shop_ready__template_swicher_click_action, false);
+                    _fld.addEventListener('click', qs_paddle_integration_template_swicher_click_action, false);
                 });
 
                
               })();
              
-            function shop_ready__template_swicher_click_action(event){
+            function qs_paddle_integration_template_swicher_click_action(event){
                
                 var checked = event.target.checked;
                 var targetee = document.querySelector( 'div[data-targetee=' + this.dataset.target + ']'  );
@@ -171,7 +171,7 @@ final class Dashboard {
               
             }  
              // search element
-            function shop_ready_element_search_action(event){
+            function qs_paddle_integration_element_search_action(event){
                 var search_text = event.target.value.toUpperCase();
                 
                 var targetee = document.querySelectorAll( 'div[data-targetee=' + this.dataset.target + '] strong'  );
@@ -192,7 +192,7 @@ final class Dashboard {
 
             }
 
-            function shop_ready_enable_all_switch(event) {
+            function qs_paddle_integration_enable_all_switch(event) {
                   // notification
                 var notice = document.getElementById("qs-paddle-intregration-admin-notification");
                
@@ -227,7 +227,7 @@ final class Dashboard {
            
          
 
-            function shop_ready_offcanvas_push(event){
+            function qs_paddle_integration_offcanvas_push(event){
                
                  var element = document.querySelector('.qs-paddle-intregration-menu-tab')
                  var element_content = document.querySelector('.qs-paddle-intregration-tab-content-container')
@@ -245,7 +245,7 @@ final class Dashboard {
          
             }  
  
-            function shop_ready_open_nav(evt) {
+            function qs_paddle_ready_open_nav(evt) {
                 
                 var i, tabcontent, tablinks;
                 tabcontent = document.getElementsByClassName("qs-paddle-intregration-dash-tab-content");
