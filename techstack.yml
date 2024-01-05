@@ -1,7 +1,8 @@
 repo_name: rayhanuddin2019/qs-paddle-integration
 report_id: 865e667d3a9a700ddd4f750e6686e393
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T15:16:59+00:00'
+timestamp: '2024-01-05T08:53:39+00:00'
 requested_by: rayhanuddin2019
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration
   detection_source: Repo Metadata
 - name: Hack
   description: A programming language for HHVM that interoperates seamlessly with
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1208/download.png
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration
   detection_source: Repo Metadata
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -56,7 +61,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: vendor/symfony/polyfill-php80/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/symfony/polyfill-mbstring/composer.json
+  detection_source: vendor/symfony/polyfill-mbstring/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
 - name: Laravel
@@ -67,7 +73,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
-  detection_source: vendor/illuminate/support/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/illuminate/config/composer.json
+  detection_source: vendor/illuminate/config/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
 - name: Symfony
@@ -79,7 +86,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
-  detection_source: vendor/symfony/var-dumper/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/symfony/translation/composer.json
+  detection_source: vendor/symfony/translation/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
 - name: Twig
@@ -90,6 +98,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/symfony/var-dumper/composer.json
   detection_source: vendor/symfony/var-dumper/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
@@ -101,6 +110,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -110,7 +120,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: vendor/symfony/polyfill-php80/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/symfony/polyfill-mbstring/composer.json
+  detection_source: vendor/symfony/polyfill-mbstring/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
 - name: PHPStan
@@ -123,7 +134,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/8333/phpst.png
-  detection_source: vendor/nesbot/carbon/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/doctrine/inflector/composer.json
+  detection_source: vendor/doctrine/inflector/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
 - name: PHPUnit
@@ -135,6 +147,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
-  detection_source: vendor/symfony/var-dumper/composer.json
+  detection_source_url: https://github.com/rayhanuddin2019/qs-paddle-integration/blob/master/vendor/doctrine/inflector/composer.json
+  detection_source: vendor/doctrine/inflector/composer.json
   last_updated_by: rayhanuddin2019
   last_updated_on: 2021-09-23 06:44:26.000000000 Z
